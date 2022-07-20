@@ -1,0 +1,25 @@
+{
+  "name": "googlesearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B9ary01/GoogleSearch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B9ary01/GoogleSearch/issues"
+  },
+  "homepage": "https://github.com/B9ary01/GoogleSearch#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "nodemon": "^2.0.19"
+  }
+}
