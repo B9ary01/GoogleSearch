@@ -62,7 +62,7 @@ app.listen(8000,()=>{
   
   
 
-
+/*
 $("#form").submit(function(e){
     e.preventDefault();
 
@@ -79,3 +79,16 @@ $.get(url, function(data){
 })
 
 });
+*/
+
+
+//result.js
+let qu=document.querySelector('.query');
+let btns=document.querySelector('.btn');
+
+btns.onclick=function(){
+    let getUrl='https://www.google.co.uk/search?q='+
+    qu.Value;
+     window.open(getUrl, '_self');
+
+}

@@ -18,8 +18,41 @@
 
 <h1>API results</h1>
 
-<script async src="https://cse.google.com/cse.js?cx=e917ac59654528855"></script>
-<div class="gcse-search"></div>
+
+<input class="query" type="text">
+<input type="button" class="btn">
+
+<script>
+    const data=[
+
+"https://www.northeastern.edu/graduate/blog/most-popular-programming-languages/",
+
+"https://en.wikipedia.org/wiki/List_of_programming_languages",
+
+"https://www.tiobe.com/tiobe-index/"
+
+
+]
+    //result.js
+    let qu=document.querySelector('.query');
+    
+    
+    console.log(typeof qu)
+    console.log( qu.value)
+
+    let btns=document.querySelector('.btn');
+    
+    btns.onclick=function(){
+        let getUrl="https://www.google.co.uk/search?q="+ qu.value;
+        console.log(getUrl)
+        let find=Math.random()*data.length;
+       find= Math.floor(find);
+        console.log(find)
+         window.open(data[find], '_self');
+       //  console.log(getUrl)
+
+         
+    }</script>
     </body>
 
     </html>
